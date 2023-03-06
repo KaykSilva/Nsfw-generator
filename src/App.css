@@ -37,20 +37,36 @@
 
 }
 
-.button-reload {
-  width: 50%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.label-tag label {
+  background-color: #fff;
+
+  color: #fff;
   border-radius: 20px;
-  border: 0;
-  font-size: 40px;
-  
+  padding: 10px;
 
 }
 
-.button-reload:hover{
+.label-tag input {
+  border: 0;
+  height: 30px;
+}
+
+.label-tag button {
+  width: 70px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.label-tag button:hover {
+  transform: scale(1.07);
   cursor: pointer;
-  transform: scale(1.05);
+}
+
+.social{
+cursor: pointer;
+padding-top: 10px;
 }

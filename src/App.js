@@ -17,7 +17,7 @@ function App() {
 
     <div className='container'>
       <div className='title'>
-        <h1>Wallpaper Generator</h1>
+        <h1>Nsfw Generator</h1>
       </div>
 
       <div className='wallpaper'>

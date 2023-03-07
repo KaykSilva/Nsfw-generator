@@ -16,8 +16,8 @@ export default function App() {
   async function getWallpaper() {
 
     try {
-      const response = await axios.get(`https://api.waifu.pics/nsfw/${tags}`)
-      setWallpaper(response.data.url)
+      const response = await axios.get(`http://api.nekos.fun:8080/api/${tags}`)
+      setWallpaper(response)
       console.log(response)
     } catch {
 

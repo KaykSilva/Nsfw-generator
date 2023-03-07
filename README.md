@@ -1,6 +1,6 @@
 # Nsfw generator with Api 
 
-Try in: https://nsfw-generator-do3j3usip-kayksilva.vercel.app/
+Try in: https://nsfw-generator.vercel.app/
 
 ## Available Scripts
 
